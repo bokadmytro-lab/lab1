@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+<meta charset="UTF-8">
+<title>Лабораторна робота №1 - JavaScript</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+
+JS LAB
+
+<div class="author-info">
+
+<img src="img/author.jpg">
+
+<p>
+Автор: Дмитро Бока<br>
+Спеціальність: Інформатика<br>
+Лабораторна робота №1
+</p>
+
+</div>
+
+</div>
+
+<ul>
+
+<li><a href="#task1">Квадрат числа</a></li>
+
+<li><a href="#task2">Кількість символів</a></li>
+
+<li><a href="#task3">Калькулятор</a></li>
+
+</ul>
+
+</nav>
+
+<div class="container">
+
+<section id="task1">
+
+<h2>Завдання 1</h2>
+
+<p>Умова: знайти квадрат числа.</p>
+
+<p>Інструкція: введіть число та натисніть кнопку.</p>
+
+<input type="number" id="num">
+
+<button onclick="square()">Обчислити</button>
+
+<p id="result1"></p>
+
+</section>
+
+<section id="task2">
+
+<h2>Завдання 2</h2>
+
+<p>Умова: обчислити кількість символів у тексті.</p>
+
+<p>Інструкція: введіть текст та натисніть кнопку.</p>
+
+<textarea id="text"></textarea>
+
+<br>
+
+<button onclick="countSymbols()">Порахувати</button>
+
+<p id="result2"></p>
+
+</section>
+
+<section id="task3">
+
+<h2>Завдання 3</h2>
+
+<p>Умова: знайти суму двох чисел.</p>
+
+<p>Інструкція: введіть два числа.</p>
+
+<input type="number" id="a" placeholder="Перше число">
+<input type="number" id="b" placeholder="Друге число">
+
+<button onclick="add()">Обчислити</button>
+
+<p id="result3"></p>
+
+</section>
+
+</div>
+
+<script src="js/task1.js"></script>
+<script src="js/task2.js"></script>
+<script src="js/task3.js"></script>
+
+</body>
+</html>
